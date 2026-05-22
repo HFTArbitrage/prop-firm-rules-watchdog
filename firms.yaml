@@ -1,0 +1,136 @@
+# =============================================================
+# Prop Firm Rules Watchdog — firm registry
+#
+# Each entry monitored daily for changes in published rules.
+#
+# Fields:
+#   name      — display name shown in the dashboard
+#   slug      — filename-safe identifier (lowercase, hyphens)
+#   url       — full URL to the rules / ToS / prohibited-practices page
+#   selector  — CSS selector for the main content; reduces noise
+#   category  — informational tag (evaluation / instant / futures / hybrid)
+#
+# Adding a firm: open the rules page, identify the wrapping <main>,
+# <article>, or top-level content <div>, and put its CSS selector here.
+# When in doubt, use 'main' or 'body' and refine later if too noisy.
+# =============================================================
+
+- name: "FTMO"
+  slug: "ftmo"
+  url: "https://ftmo.com/en/all-rules/"
+  selector: "main"
+  category: "evaluation"
+
+- name: "FundedNext"
+  slug: "fundednext"
+  url: "https://fundednext.com/general-rules"
+  selector: "main"
+  category: "evaluation"
+
+- name: "The5ers"
+  slug: "the5ers"
+  url: "https://www.the5ers.com/the-program/"
+  selector: "main"
+  category: "evaluation"
+
+- name: "FundingPips"
+  slug: "fundingpips"
+  url: "https://fundingpips.com/policies"
+  selector: "main"
+  category: "evaluation"
+
+- name: "E8 Markets"
+  slug: "e8-markets"
+  url: "https://e8markets.com/rules/"
+  selector: "main"
+  category: "evaluation"
+
+- name: "Topstep"
+  slug: "topstep"
+  url: "https://www.topstep.com/the-trading-combine/"
+  selector: "main"
+  category: "futures"
+
+- name: "Apex Trader Funding"
+  slug: "apex-trader-funding"
+  url: "https://apextraderfunding.com/rules/"
+  selector: "main"
+  category: "futures"
+
+- name: "FXIFY"
+  slug: "fxify"
+  url: "https://fxify.com/rules/"
+  selector: "main"
+  category: "evaluation"
+
+- name: "Funded Trading Plus"
+  slug: "funded-trading-plus"
+  url: "https://fundedtradingplus.com/rules/"
+  selector: "main"
+  category: "evaluation"
+
+- name: "FunderPro"
+  slug: "funderpro"
+  url: "https://funderpro.com/rules"
+  selector: "main"
+  category: "evaluation"
+
+- name: "Goat Funded Trader"
+  slug: "goat-funded-trader"
+  url: "https://goatfundedtrader.com/rules/"
+  selector: "main"
+  category: "evaluation"
+
+- name: "The Trading Pit"
+  slug: "the-trading-pit"
+  url: "https://thetradingpit.com/rules/"
+  selector: "main"
+  category: "evaluation"
+
+- name: "Lux Trading Firm"
+  slug: "lux-trading-firm"
+  url: "https://luxtradingfirm.com/about/"
+  selector: "main"
+  category: "evaluation"
+
+- name: "City Traders Imperium"
+  slug: "city-traders-imperium"
+  url: "https://citytradersimperium.com/rules/"
+  selector: "main"
+  category: "evaluation"
+
+- name: "Earn2Trade"
+  slug: "earn2trade"
+  url: "https://earn2trade.com/gauntlet-mini-rules/"
+  selector: "main"
+  category: "futures"
+
+- name: "Smart Prop Trader"
+  slug: "smart-prop-trader"
+  url: "https://smartproptrader.com/rules/"
+  selector: "main"
+  category: "evaluation"
+
+- name: "Maven Trading"
+  slug: "maven-trading"
+  url: "https://maventrading.com/rules"
+  selector: "main"
+  category: "evaluation"
+
+- name: "PipFarm"
+  slug: "pipfarm"
+  url: "https://www.pipfarm.com/rules"
+  selector: "main"
+  category: "evaluation"
+
+- name: "Blueberry Funded"
+  slug: "blueberry-funded"
+  url: "https://blueberryfunded.com/rules/"
+  selector: "main"
+  category: "evaluation"
+
+- name: "Alpha Capital Group"
+  slug: "alpha-capital-group"
+  url: "https://alphacapitalgroup.uk/our-rules/"
+  selector: "main"
+  category: "evaluation"
