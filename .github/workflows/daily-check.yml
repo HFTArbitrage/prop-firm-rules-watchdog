@@ -1,0 +1,62 @@
+name: Daily Rule Check
+
+on:
+  schedule:
+    # Run every day at 06:00 UTC
+    - cron: "0 6 * * *"
+  workflow_dispatch: # allow manual trigger from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run scraper
+        run: python scraper.py
+
+      - name: Update Google Sheet
+        env:
+          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
+          GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
+        run: python sheets_updater.py
+
+      - name: Commit and push snapshot updates
+        run: |
+          git config user.name "Prop Firm Watchdog Bot"
+          git config user.email "${{ secrets.COMMIT_EMAIL || 'bot@hftarbitrageplatform.com' }}"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            CHANGE_COUNT=$(jq 'length' run_summary.json 2>/dev/null || echo "0")
+            git commit -m "chore: daily rules snapshot $(date -u +'%Y-%m-%d')"
+            git push
+          fi
+
+      - name: Upload run summary as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: run-summary-${{ github.run_id }}
+          path: run_summary.json
+          retention-days: 30
