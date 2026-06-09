@@ -1,0 +1,11 @@
+[
+  {
+    "firm": "Smart Prop Trader",
+    "slug": "smart-prop-trader",
+    "url": "https://smartproptrader.com/rules/",
+    "category": "evaluation",
+    "detected_at_utc": "2026-06-09T08:54:54+00:00",
+    "char_diff": 10,
+    "diff_preview": "--- previous\n+++ current\n@@ -1,5 +1,5 @@\n-Prime \n- 100% A-Book\n-Aligned 100% with traders.\n+Institutional Grade \n+ Liquidity\n+Prime Of Prime Liquidity\n 12 ms\n Average Response Time"
+  }
+]
