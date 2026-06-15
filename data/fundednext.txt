@@ -1,0 +1,128 @@
+General Rules
+Every rule, every condition, published before you start your challenge. Same rules for every trader.
+CFDs
+Stellar 2-Step, 1-Step, Lite & Instant
+Futures
+Flex, Legacy, Rapid, Bolt
+Trading Objectives
+Trading Platforms
+Symbols & Conditions
+What is Allowed
+What is Forbidden
+1
+Profit Target
+The required profit to pass each phase. Calculated on closed trades only.
+Stellar ⁦1⁩-Step
+:
+ 
+⁦10%⁩ (single phase)
+Stellar ⁦2⁩-Step
+:
+ 
+⁦8%⁩ Phase ⁦1⁩ → ⁦5%⁩ Phase ⁦2⁩
+Stellar Lite
+:
+ 
+⁦8%⁩ Phase ⁦1⁩ → ⁦4%⁩ Phase ⁦2⁩
+Stellar Instant
+:
+ 
+No profit target, FundedNext account from day one.
+Once you reach the FundedNext Account stage, there is no profit target. 
+2
+Daily Loss Limit
+A cap on how much you can lose in a single day. Includes realized and unrealized P&L, swap, and commission. Breaching it closes the account.
+Stellar ⁦1⁩-Step
+:
+ 
+⁦3%⁩ of initial balance
+Stellar ⁦2⁩-Step
+:
+ 
+⁦5%⁩ of initial balance
+Stellar Lite
+:
+ 
+⁦4%⁩ of initial balance
+Stellar Instant
+:
+ 
+No daily loss limit
+Learn More
+ →
+Set as a percentage of your initial balance based on your account model. Resets daily at ⁦0:00⁩ server time.
+3
+Maximum Loss Limit
+A cap on how much you can lose across the lifetime of your account. Calculated as a percentage of the initial balance, fixed per account model. Breaching it closes the account.
+Stellar ⁦1⁩-Step
+:
+ 
+⁦6%⁩ (Static)
+Stellar ⁦2⁩-Step
+:
+ 
+⁦10%⁩ (Static)
+Stellar Lite
+:
+ 
+⁦8%⁩ (Static)
+Stellar Instant
+:
+ 
+⁦6%⁩ (Trailing)
+Learn More
+ →
+Static means the loss limit is set from your starting balance and remains unchanged throughout. Trailing means the loss limit rises with your profits, does not decrease during losses, and stops once it reaches your initial balance.
+4
+Minimum Trading Days
+The minimum number of days required before passing a phase. Set to show steady trading.
+Stellar ⁦1⁩-Step
+:
+ 
+⁦2⁩ trading days
+Stellar ⁦2⁩-Step
+:
+ 
+⁦5⁩ trading days
+Stellar Lite
+:
+ 
+⁦5⁩ trading days
+Stellar Instant
+:
+ 
+No minimum
+Learn More
+ →
+A trading day counts when you place at least one trade with non-zero P&L.
+
+5
+No Time Limit
+No deadline to pass the Challenge. Trade and pass the challenge at your own pace.
+A ⁦60⁩-day inactivity rule applies to all CFD accounts: Stellar ⁦1⁩-Step, ⁦2⁩-Step, Lite, and Instant. If no trade is placed within ⁦60⁩ consecutive days, the account is deactivated. The window cannot be extended or customized.
+6
+Reward Share
+The trader's share of profits generated on the FundedNext Account.
+Standard
+:
+ 
+⁦80%⁩ of net profit 
+Scale-Up
+:
+ 
+Up to ⁦90%⁩
+⁦95%⁩ Add-On
+:
+ 
+Up to ⁦95%⁩ (optional upgrade)
+Challenge Phase Reward
+:
+ 
+⁦15%⁩ (Stellar ⁦1⁩-Step & ⁦2⁩-Step only, paid after first scale-up)
+Learn More
+ →
+Stellar Lite and Stellar Instant does not include the ⁦15%⁩ Challenge phase reward.
+Start your
+FundedNext challenge
+Thousands of traders are already getting rewarded by FundedNext. The only one missing from that list is you. Your challenge is open now.
+Start Challenges
