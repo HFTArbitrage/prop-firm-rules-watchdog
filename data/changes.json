@@ -1,5 +1,14 @@
 [
   {
+    "firm": "FundedNext",
+    "slug": "fundednext",
+    "url": "https://fundednext.com/general-rules",
+    "category": "evaluation",
+    "detected_at_utc": "2026-07-11T07:28:23+00:00",
+    "char_diff": -6,
+    "diff_preview": "--- previous\n+++ current\n@@ -4,5 +4,5 @@\n Stellar 2-Step, 1-Step, Lite & Instant\n Futures\n-Flex, Legacy, Rapid, Bolt\n+Flex, Legacy, Rapid\n Trading Objectives\n Trading Platforms"
+  },
+  {
     "firm": "Smart Prop Trader",
     "slug": "smart-prop-trader",
     "url": "https://smartproptrader.com/rules/",
