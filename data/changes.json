@@ -1,5 +1,14 @@
 [
   {
+    "firm": "Smart Prop Trader",
+    "slug": "smart-prop-trader",
+    "url": "https://smartproptrader.com/rules/",
+    "category": "evaluation",
+    "detected_at_utc": "2026-09-29T11:39:45+00:00",
+    "char_diff": 1160,
+    "diff_preview": "--- previous\n+++ current\n@@ -1,92 +1,120 @@\n-Institutional Grade \n- Liquidity\n-Prime Of Prime Liquidity\n-12 ms\n-Average Response Time\n-1:500\n-Leverage\n-0.01\n-Minimum Trading\n-100%\n-STP/ECN\n-Professional Trading Experience\n-Experience the power of professional-grade trading features\n-Advanced Charts\n-Professional-grade charting tools with multiple timeframes and indicators\n-Secure Storage\n-Industry-leading security measures to protect your assets\n-Instant Trading\n-Execute trades instantly with our high-performance engine\n-Bank-grade Security\n-Your funds are protected by state-of-the-art encryption\n-Markets\n-Trade a wide range of financial markets with professional conditions. Click on any market to explore more details.\n+Forex Trading spreads and commission to The \n+Next Level\n+ \n+Open the same Eightcap accounts through SmartProfitFX and pay a round-trip commission $1 lower than going direct. Eightcap is the regulated broker; SmartProfitFX is the door in.\n+Create Live Account\n+Powered By: \n+4.8\n+162 Reviews\n+4.8\n+1234\n+Reviews\n+\n+Market examples\n+\n+Popular markets\n+\n+EUR/USD\n Forex\n-Trade major, minor and exotic currency pairs with tight spreads\n-Explore \n-Metals and Energies\n-Access global precious metals and energy markets\n-Explore \n-Stocks\n-Trade CFDs on shares from leading global companies\n-Explore \n+\n+XAU/USD\n+Metals\n+\n+BTC/USD\n+Crypto CFD\n+\n+US30"
+  },
+  {
     "firm": "FundedNext",
     "slug": "fundednext",
     "url": "https://fundednext.com/general-rules",
