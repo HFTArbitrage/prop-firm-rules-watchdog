@@ -4,6 +4,15 @@
     "slug": "fundednext",
     "url": "https://fundednext.com/general-rules",
     "category": "evaluation",
+    "detected_at_utc": "2026-10-08T12:19:18+00:00",
+    "char_diff": -9,
+    "diff_preview": "--- previous\n+++ current\n@@ -4,5 +4,5 @@\n Stellar 2-Step, 1-Step, Lite & Instant\n Futures\n-Flex, Rapid, {{FNF_INSTANT}}\n+Flex, Rapid, Direct\n Trading Objectives\n Trading Platforms"
+  },
+  {
+    "firm": "FundedNext",
+    "slug": "fundednext",
+    "url": "https://fundednext.com/general-rules",
+    "category": "evaluation",
     "detected_at_utc": "2026-10-06T12:17:18+00:00",
     "char_diff": 9,
     "diff_preview": "--- previous\n+++ current\n@@ -4,5 +4,5 @@\n Stellar 2-Step, 1-Step, Lite & Instant\n Futures\n-Flex, Legacy, Rapid\n+Flex, Rapid, {{FNF_INSTANT}}\n Trading Objectives\n Trading Platforms"
