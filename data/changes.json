@@ -1,5 +1,14 @@
 [
   {
+    "firm": "FundedNext",
+    "slug": "fundednext",
+    "url": "https://fundednext.com/general-rules",
+    "category": "evaluation",
+    "detected_at_utc": "2026-11-06T13:18:53+00:00",
+    "char_diff": 0,
+    "diff_preview": "--- previous\n+++ current\n@@ -88,5 +88,5 @@\n :\n  \n-⁦5⁩ trading days\n+⁦2⁩ trading days\n Stellar Instant\n :"
+  },
+  {
     "firm": "City Traders Imperium",
     "slug": "city-traders-imperium",
     "url": "https://citytradersimperium.com/rules/",
